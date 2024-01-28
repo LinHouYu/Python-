@@ -16,5 +16,5 @@
    - 使用 `shutil.copy2()` 函数将图像文件复制到相应的目标文件夹中。
 
 4. (重点!!!)使用方法！！！：
-   - 调用 `classify_images` 函数，并传入要处理的图像文件夹路径以及两个目标文件夹路径。
+   - 调用 `classify_images` 函数在第22行代码！！！，并传入要处理的图像文件夹路径以及两个目标文件夹路径。
    - 例如，`classify_images(r"C:\Users\zhish\Downloads", r"C:\Users\zhish\Downloads\4k", r"C:\Users\zhish\Downloads\1")` 将会将 `C:\Users\zhish\Downloads` 文件夹中的图像文件分类到 `C:\Users\zhish\Downloads\4k` 或 `C:\Users\zhish\Downloads\1` 文件夹中，具体取决于图像的尺寸。
